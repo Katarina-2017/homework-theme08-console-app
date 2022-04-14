@@ -10,6 +10,7 @@ namespace HomeworkTheme08ConsoleApp
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
