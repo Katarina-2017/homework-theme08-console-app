@@ -15,8 +15,9 @@ namespace HomeworkTheme08ConsoleAppTask01
             Console.WriteLine("Задание 1. Работа с листом.\nИсходная коллекция:");
             var myListNumber = listMethods.AddList();
             listMethods.PrintList(myListNumber);
+
             Console.WriteLine();
-            Console.WriteLine("\nИзмененная коллекция коллекция:");
+            Console.WriteLine("\nИзмененная коллекция:");
             listMethods.DeleteNumber(myListNumber);
             listMethods.PrintList(myListNumber);
 
