@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+HomeworkTheme08ConsoleAppTask02/App.config
+HomeworkTheme08ConsoleAppTask02/HomeworkTheme08ConsoleAppTask02.csproj
+HomeworkTheme08ConsoleAppTask02/Properties/AssemblyInfo.cs
