@@ -20,7 +20,7 @@ namespace HomeworkTheme08ConsoleAppTask01
             Random rand = new Random();
             for (int i = 0; i < 100; i++)
             {
-                listNumber.Add(rand.Next(0, 100));
+                listNumber.Add(rand.Next(0, 101));
             }
             return listNumber;
         }
