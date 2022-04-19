@@ -10,6 +10,14 @@ namespace HomeworkTheme08ConsoleAppTask04
     {
         static void Main(string[] args)
         {
+            string path = @"Notebook.xml";
+
+            Notebook myNotebook = new Notebook(path);
+
+            Console.WriteLine("Задание 4. Записная книжка:");
+            myNotebook.Create(path);
+
+            Console.ReadKey();
         }
     }
 }
