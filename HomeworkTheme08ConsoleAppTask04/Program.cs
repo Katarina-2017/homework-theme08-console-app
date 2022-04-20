@@ -17,6 +17,10 @@ namespace HomeworkTheme08ConsoleAppTask04
             Console.WriteLine("Задание 4. Записная книжка:");
             myNotebook.Create(path);
 
+            Console.WriteLine();
+
+            myNotebook.Print(path);
+
             Console.ReadKey();
         }
     }
